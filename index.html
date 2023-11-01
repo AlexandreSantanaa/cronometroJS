@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="esse programa tem como objetivo ser um um cronometro, onde pode reiniciar, parar e gravar o tempo">
+        <meta name="keywords" content="reiniciar, parar, cronometro">
+        <meta name="author" content="Alexandre Lemes de Santana Filho">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="src/css/style.css">
+        <title>Cronomêtro</title>
+    </head>
+    <body>
+        <div id="cronometro">
+          <h2 id="tempo">
+            00:00:00:00
+          </h2>
+
+          <div id="icones">
+            <button id="reset">
+              <i class="fa-solid fa-rotate-right"></i>
+            </button>
+
+            <button id="power" icones="start">
+              <i class="fa-solid fa-play"></i>
+            </button>
+
+            <button id="mark">
+              <i class="fa-solid fa-flag"></i>
+            </button>
+          </div>
+          <div id="marks-list">
+      
+          </div>
+        </div>
+
+
+        <script src="src/javaScript/SCRIPT.js"></script>
+    </body>
+</html>
